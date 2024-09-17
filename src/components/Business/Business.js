@@ -1,19 +1,6 @@
 import React from "react";
 import styles from "./Business.module.css";
 
-// const business = {
-//   imageSrc:
-//     "https://s3.amazonaws.com/codecademy-content/programs/react/ravenous/pizza.jpg",
-//   name: "Feargals Pizzeria",
-//   address: "11 Pearse Street",
-//   city: "Cloankilty",
-//   state: "Cork",
-//   zipCode: "P85v200",
-//   category: "Italian",
-//   rating: 5,
-//   reviewCount: 300,
-// };
-
 const Business = ({business}) => {
   return (
     <div className={styles.Business}>
