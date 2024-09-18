@@ -69,9 +69,10 @@
   color: #ffffff;
   font-weight: 600;
   transition: background-color 0.5s;
+  border: 0;
 }
 
-.SearchBarSubmit a:hover {
+.SearchBarSubmit button:hover {
   cursor: pointer;
   background-color: #a7874b;
 }

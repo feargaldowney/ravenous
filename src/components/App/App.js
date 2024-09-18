@@ -22,10 +22,13 @@ const businesses = [
 ];
 
 const App = () => {
+  const searchYelp = (searchRestaurant, searchLocation, sortingOption) => {
+    console.log(`Searching Yelp for ${searchRestaurant}, ${searchLocation}, ${sortingOption}`);
+  }
   return (
     <div className={styles.App}>
       <h1>ravenous</h1>
-      <SearchBar />
+      <SearchBar searchYelp={searchYelp}/>
       <BusinessList businesses={businesses}/>
     </div>
   );
